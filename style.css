@@ -1,0 +1,86 @@
+@font-face{
+	font-family: 'MyWebFont';
+	src: url('WebFont.eot');
+	src: url('WebFont.eot?iefix') format('eot'),
+	     url('WebFont.woff') format('woff'),
+	     url('WebFont.ttf') format('truetype'),
+	     url('WebFont.svg#webfont') format('svg');
+}
+
+* {
+margin: auto;
+}
+
+header {
+  text-align: center;
+  color: #FFF;
+  text-shadow: 2px 2px #303030;
+  padding: 30px;
+}
+
+
+body {
+    background: linear-gradient(
+    rgba(0, 255, 193, 0.80),
+    rgba(48, 48, 48, 0.80)
+    ),url("raspberrypi.jpeg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    font-family: "MyWebFont", Bellota, sans-serif;
+    font-size: 20px;
+    text-shadow: 1px 1px #15c5bd;
+		height: 100%;
+}
+
+fieldset{
+  background-color: #303030;
+  color: #FFF;
+  border-radius: 5px;
+  box-sizing:border-box;
+  box-shadow:  5px 5px #303030;
+  padding: 40px;
+  width : 50%;
+
+}
+
+.error {color: #FF0000;}
+
+.last {
+	text-align: center;
+	font-size: 20px;
+}
+
+.photo {
+  float: right;
+}
+
+.hide {
+	display: none;
+}
+
+.valide {
+	
+	color: #FFF;
+}
+
+form input[type="submit"]
+{
+display: block;
+margin: 0 auto;
+border: #00ff77 2px solid;
+background-color: #15c5bd;
+width: 25%;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+}
+
+form input[type="submit"]:hover
+{
+background-color: #00ff77;
+cursor: pointer;
+}
+
+
+footer {
+	float: right;
+}
